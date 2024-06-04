@@ -18,8 +18,7 @@ namespace WebService1
     {
 
         [WebMethod]
-        public string TellFortune()
-        {
+        public string TellFortune() { 
             Random rnd = new Random();
             int num = rnd.Next(1, 4);
             string fortune = "";
